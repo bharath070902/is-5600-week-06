@@ -8,6 +8,7 @@ export default function Search({handleSearch}) {
   // This function will be called whenever the user types in the search box
   const handleChange = (e) => {
     setSearch(e.target.value)
+    // console.log(e.target.value.toLowerCase());
   }
 
   // This function will be called when the user submits the form
